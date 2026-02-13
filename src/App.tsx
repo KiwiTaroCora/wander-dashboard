@@ -5,6 +5,7 @@ import DogToggle from "./components/DogToggle";
 import RentshopCard from "./components/card/Rentshop";
 import PublicTransportCard from "./components/card/PublicTransport";
 import RiverTemperatureCard from "./components/card/RiverTemparature";
+import CatFactCard from "./components/card/CatFactCard";
 
 const DASHBOARD_REPO_URL = "https://github.com/Meisterwerk-GmbH/wander-dashboard";
 
@@ -59,6 +60,7 @@ export default function App() {
         <RiverTemperatureCard />
         <RentshopCard />
         <PublicTransportCard />
+        <CatFactCard />
       </main>
 
       <DogToggle />

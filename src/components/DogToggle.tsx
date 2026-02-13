@@ -32,7 +32,7 @@ export default function DogToggle() {
         className="glass fixed bottom-24 left-4 z-30 rounded-full px-4 py-2 text-xs uppercase tracking-[0.2em] text-slate-100 transition hover:bg-white/10 sm:left-8 lg:left-16"
         aria-pressed={dogEnabled}
       >
-        Tofu Toggle
+        Taro Toggle
       </button>
 
       {dogEnabled ? (
